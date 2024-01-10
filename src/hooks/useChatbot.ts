@@ -98,7 +98,7 @@ const useChatbot = ({
   }, []);
 
   useEffect(() => {
-    console.log("useEffect called on state");
+    console.error("useEffect called on state");
     stateRef.current = state;
   }, [state]);
 
